@@ -7,6 +7,7 @@ import About from './Routing/about';
 import Login from './Routing/login';
 import LoginWIthValidation from './FormValidation/loginWithValidation';
 import SignupWIthValidation from './FormValidation/signupWithValidation';
+import AddTodo from './ToDoList/addTodo';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Signup" exact element={<Signup />} />
         <Route path="/loginWithValidation" exact element={<LoginWIthValidation />} />
         <Route path="/signupWithValidation" exact element={<SignupWIthValidation />} />
+        <Route path="/addToDo" element={<AddTodo/>} />
       </Routes>
       </BrowserRouter>
     </div>
